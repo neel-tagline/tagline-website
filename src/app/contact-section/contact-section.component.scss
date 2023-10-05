@@ -1,0 +1,67 @@
+.container{
+    padding: 80px 0px !important;
+}
+.contact-main-section::before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    z-index: -5;
+    background: linear-gradient(119.18deg,rgba(217,97,34,.8) 0%,rgba(217,97,34,.2) 100%);
+    // top: 0;
+    left: 0;
+}
+.contact-main-section::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    z-index: -5;
+    background: linear-gradient(119.18deg,rgba(255,255,255,0) 0%,rgba(217,97,34,.5) 100%,rgba(217,97,34,.2) 100%);
+    top: 0;
+    right: 0;
+}
+.experience-text-card{
+    color: white;
+}
+.experience-text-card p{
+    width: 330px;
+    font-size: 18px !important;
+    line-height: 32px;
+}
+.experience-text-card button{
+    padding: 15px 30px;
+    background-color: var(--bs-primary);
+    color: white;
+    margin-top: 25px;
+}
+.experience-list{
+    color: var(--bs-primary);
+}
+li>div>h1{
+    font-size: 54px !important;
+}
+.experience-list img{
+    filter: drop-shadow(0 10px 15px #E09334);
+}
+.experience-list ul{
+    list-style-type: none;
+}
+
+.experience-list ul li{
+    width: 250px;
+    text-align: center;
+}
+.contact-woman{
+    position: absolute;
+    bottom: 0;
+    left: 42%;
+    width: auto;
+}
+
+.chat-bubble{
+    position: absolute;
+    top: 18%;
+    left: -15%;
+    filter: drop-shadow(0 0 75px rgba(0,0,0,.1));
+}

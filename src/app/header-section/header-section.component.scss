@@ -1,0 +1,24 @@
+.header{
+    // margin: 0 auto 35px;
+    max-width: 960px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90px;
+    color: #000;
+}
+
+.header-section{
+    padding-top: 150px;
+}
+.header-main-section{
+    background: linear-gradient(180deg,rgba(255,255,255,0) 0%,rgba(196,196,196,0) .01%,rgba(217,97,34,.2) 100%);
+}
+.header-section p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #242424;
+    max-width: 636px;
+    margin: 0 auto 60px;
+    text-align: center;
+}

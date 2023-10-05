@@ -1,0 +1,20 @@
+button{
+    color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+button:hover{
+    color: var(--bs-primary);
+}
+
+ul>li{
+    padding: 6px 20px;
+}
+li:hover{
+    background-color: rgba($color: silver, $alpha: 0.2);
+
+    
+}
+a:hover{
+    color: var(--bs-primary);
+}

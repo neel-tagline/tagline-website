@@ -1,0 +1,52 @@
+
+.case-studies-title{
+    
+}
+
+.case-studies-title::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    background-color: black;
+    width: 70%;
+    bottom: 1px;
+    text-align: center;
+    left: 40px;
+    right: 0;
+    background: radial-gradient(50% 151250% at 50% -100%,#d96122 0%,rgba(255,255,255,0) 100%);
+}
+.case-studies-card{
+    height: 335px;
+    padding: 28px;
+    background-repeat: no-repeat !important;
+    background-origin: padding-box !important;
+    border: 10px solid white;
+    // background-size: cover;
+}
+.case-studies-card img{
+    margin: 133px 0px 0px;
+}
+.case-studies-card p{
+    margin: 24px 0px 0px;
+    color: white;
+}
+.recognize{
+    background: linear-gradient(107.36deg,rgba(0,159,253,.75) -8.2%,rgba(42,42,114,.75) 109.89%), url(/assets/images/recognize-bg-wrapper1.webp);
+    background-size: cover;
+}
+.promoprep{
+    background: linear-gradient(98.75deg,rgba(254,162,72,.75) -5%,rgba(254,137,17,.75) 104.22%), url("/assets/images/promoprep-bg-warpper.webp");
+    background-size: cover;
+}
+.investing{
+    background: linear-gradient(101.93deg,rgba(31,31,31,.75) -7.33%,rgba(129,129,129,.75) 107.06%), url("/assets/images/investing-bg-wrapper.webp"), ;
+    background-size: cover;
+}
+.jeeve{
+    background: linear-gradient(132.35deg,rgba(24,166,137,.8) -9.94%,rgba(19,54,92,.8) 112.44%), url("/assets/images/triage-bg-wrapper.webp");
+    background-size: cover;
+}
+.care-clinic{
+    background: linear-gradient(114.85deg,rgba(0,112,187,.8) -8.35%,rgba(0,151,210,.8) 108.68%), url("/assets/images/joy-bg-wrapper.webp");
+    background-size: cover;
+}
