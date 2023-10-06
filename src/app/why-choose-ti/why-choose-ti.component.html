@@ -7,9 +7,14 @@
             <p>{{bodyText}}</p>
         </div>
         <div class="row">
-            <div class="col-4">
-                <div>
-                    <img src="" alt="">
+            <div class="col-4" *ngFor="let item of whyChooseList">
+                <div class="choose-box">
+                    <div class="d-flex justify-content-between">
+                        <img [src]="item.iconUrl" [alt]="item.a">
+                        <span>0{{item.index}}</span>
+                    </div>
+                        <h5>{{item.heading}}</h5>
+                        <p>{{item.bodyText}}</p>
                 </div>
             </div>
 

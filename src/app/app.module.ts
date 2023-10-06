@@ -15,6 +15,7 @@ import { OurTechnologiesComponent } from './our-technologies/our-technologies.co
 import { OurDedicatedDeveloperComponent } from './our-dedicated-developer/our-dedicated-developer.component';
 import { WhyChooseTiComponent } from './why-choose-ti/why-choose-ti.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +29,8 @@ import { WhyChooseTiComponent } from './why-choose-ti/why-choose-ti.component';
     ClientsReviewCardComponent,
     OurTechnologiesComponent,
     OurDedicatedDeveloperComponent,
-    WhyChooseTiComponent
+    WhyChooseTiComponent,
+
   ],
   imports: [
     BrowserModule,
