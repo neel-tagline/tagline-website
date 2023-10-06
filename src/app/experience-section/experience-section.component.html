@@ -1,0 +1,28 @@
+<div class="section">
+    <div class="experience-main-section position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 d-flex flex-column experience-text-card">
+                    <h1 class="fs-2 fw-bold mb-3">{{experienceSection.title}}</h1>
+                    <p >{{experienceSection.bodyText}}</p>
+                        <button class="btn col-3">{{experienceSection.btnText}}</button>
+                </div>
+                <div class="col-6 experience-list d-flex flex-column align-items-center">
+                    <ul class="d-flex flex-row justify-content-center flex-wrap">
+                        <li *ngFor="let experience of experienceList;">
+                            <div class="">
+                                <img [src]="experience.iconUrl" [alt]="experience.imgAltText">
+                                <h1 class="fs-1 fw-bold">{{experience.experienceCount}}</h1>
+                                <p>{{experience.title}}</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-woman">
+                    <img [src]="contactImgUrl.contactWoman" [alt]="contactImgUrl.contactWomanAlttext">
+                    <img class="chat-bubble" [src]="contactImgUrl.chatBubble" [alt]="contactImgUrl.chatBubbleAlttext">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

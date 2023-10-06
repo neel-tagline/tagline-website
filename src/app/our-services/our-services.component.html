@@ -1,49 +1,51 @@
-<div class="container pt-5 pb-5">
-    <div class="d-flex justify-content-center pb-5 position-relative">
-        <h1 class="service-title position-relative pb-3 fw-bold">{{ title }}</h1>
-    </div>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col d-flex align-items-center">
-            <div class="title">
-                <h1>
-                    Find the <br /><span class="fw-bold">right <span
-                            class="offers position-relative">offers</span></span><br />
-                    for you.
-                </h1>
-            </div>
+<div class="section">
+    <div class="container pt-5 pb-5">
+        <div class="d-flex justify-content-center pb-5 position-relative">
+            <h1 class="title position-relative pb-3 fw-bold">{{ title }}</h1>
         </div>
-        <div *ngFor="let service of serviceCardDetails;">
-            <div class="col">
-                <div class="card shadow-lg">
-                    <div class="card-body">
-                        <div class="d-flex align-items-center">
-                            <img [src]="service.iconUrl" class="card-img" alt="..." />
-                            <h5 class="card-title fw-bold">
-                                {{ service.title }}
-                            </h5>
-                        </div>
-                        <p class="card-text mt-4 mb-4 lh-base">
-                            {{ service.bodyText }}
-                        </p>
-                        <div class="mt-4 learn-more">
-                            <a href="#">{{ learnMore }} </a>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col d-flex align-items-center">
+                <div class="main-title">
+                    <h1>
+                        Find the <br /><span class="fw-bold">right <span
+                                class="offers position-relative">offers</span></span><br />
+                        for you.
+                    </h1>
+                </div>
+            </div>
+            <div *ngFor="let service of serviceCardDetails;">
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <img [src]="service.iconUrl" class="card-img" alt="..." />
+                                <h5 class="card-title fw-bold">
+                                    {{ service.title }}
+                                </h5>
+                            </div>
+                            <p class="card-text mt-4 mb-4 lh-base">
+                                {{ service.bodyText }}
+                            </p>
+                            <div class="mt-4 learn-more">
+                                <a href="#">{{ learnMore }} </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col">
-            <div class="card contact-card shadow-lg">
-                <div class="card-body">
-                    <div class="d-flex align-items-center">
-                        <img src="/assets/images/ellipse-mega.webp" class="" alt="..." />
-                        <h5 class="fs-2 text-white">
-                            Don't know what to choose?
-                            <span class="fw-bold">Drop us a line.</span>
-                        </h5>
-                    </div>
-                    <div class="mt-4">
-                        <button class="btn text-white">{{btnText}}</button>
+            <div class="col">
+                <div class="card contact-card shadow-lg">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <img src="/assets/images/ellipse-mega.webp" class="" alt="..." />
+                            <h5 class="fs-2 text-white">
+                                Don't know what to choose?
+                                <span class="fw-bold">Drop us a line.</span>
+                            </h5>
+                        </div>
+                        <div class="mt-4">
+                            <button class="btn text-white">{{btnText}}</button>
+                        </div>
                     </div>
                 </div>
             </div>

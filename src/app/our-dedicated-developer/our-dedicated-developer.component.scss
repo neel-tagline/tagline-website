@@ -1,20 +1,5 @@
-.our-dedicated-developer-section{
-    padding-top: 70px;
-}
-.our-dedicated-developer-title::after{
-    position: absolute;
-    content: '';
-    height: 2px;
-    background-color: black;
-    width: 70%;
-    bottom: 1px;
-    text-align: center;
-    left: 40px;
-    right: 0;
-    background: radial-gradient(50% 151250% at 50% -100%, #d96122 0%, rgba(255, 255, 255, 0) 100%);
-}
 .hire-devlopers{
-    border: 2px solid black;
+    border: 2px solid silver;
     padding: 34px 27px;
     text-align: center;
 }
@@ -31,4 +16,26 @@
     font-weight: 500;
     line-height: 26px;
     margin-top: 10px;
+}
+
+.right-section{
+    background: linear-gradient(0deg,rgba(211,95,34,.8),rgba(211,95,34,.8)), url(/assets/images/dedicated-deveoper-bg.webp);
+    background-size: cover;
+}
+.right-section-content{
+    margin-top: auto;
+}
+.right-section-content h4{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 51px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.right-section-content button{
+    bottom: 16px;
+    background: rgba(255,195,164,.5);
+    padding: 15px 30px;
+    color: white;
 }

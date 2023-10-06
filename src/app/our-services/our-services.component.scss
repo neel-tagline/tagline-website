@@ -1,19 +1,6 @@
 .service-title{
     
 }
-
-.service-title::after{
-    position: absolute;
-    content: '';
-    height: 2px;
-    background-color: black;
-    width: 70%;
-    bottom: 1px;
-    text-align: center;
-    left: 40px;
-    right: 0;
-    background: radial-gradient(50% 151250% at 50% -100%,#d96122 0%,rgba(255,255,255,0) 100%);
-}
  
 .offers::after{
     position: absolute;
@@ -28,7 +15,7 @@
     right: 0;
 }
 
-.title>h1{
+.main-title>h1{
     font-size: 56px;
     line-height: 84px;
 }

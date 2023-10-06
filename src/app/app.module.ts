@@ -7,7 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { HeaderSectionComponent } from './header-section/header-section.component';
 import { HeaderCarouselComponent } from './header-carousel/header-carousel.component';
 import { OurServicesComponent } from './our-services/our-services.component';
-import { ContactSectionComponent } from './contact-section/contact-section.component';
+import { ExperienceSectionComponent } from './experience-section/experience-section.component';
 import { CaseStudiesComponent } from './case-studies/case-studies.component';
 import { ClientsReviewComponent } from './clients-review/clients-review.component';
 import { ClientsReviewCardComponent } from './clients-review-card/clients-review-card.component';
@@ -22,7 +22,7 @@ import { WhyChooseTiComponent } from './why-choose-ti/why-choose-ti.component';
     HeaderSectionComponent,
     HeaderCarouselComponent,
     OurServicesComponent,
-    ContactSectionComponent,
+    ExperienceSectionComponent,
     CaseStudiesComponent,
     ClientsReviewComponent,
     ClientsReviewCardComponent,

@@ -1,12 +1,14 @@
-<div class="container pt-5 pb-5">
-    <div class="d-flex justify-content-center pb-5 position-relative">
-        <h1 class="case-studies-title position-relative pb-3 fw-bold">Case studies</h1>
-    </div>
-
-        <div class="row">
-                <div *ngFor="let caseStudy of caseStudiesList" [class]="caseStudy.class" class="case-studies-card">
-                    <img [src]="caseStudy.imgUrl" [alt]="caseStudy.imgAltText">
-                    <p>{{caseStudy.bodyText}}</p>
-                </div>
+<div class="section">
+    <div class="container">
+        <div class="d-flex justify-content-center pb-5 position-relative">
+            <h1 class="title position-relative pb-3 fw-bold">Case studies</h1>
         </div>
+    
+            <div class="row">
+                    <div *ngFor="let caseStudy of caseStudiesList" [class]="caseStudy.class" class="case-studies-card">
+                        <img [src]="caseStudy.imgUrl" [alt]="caseStudy.imgAltText">
+                        <p>{{caseStudy.bodyText}}</p>
+                    </div>
+            </div>
+    </div>
 </div>

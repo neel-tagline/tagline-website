@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-contact-section',
-  templateUrl: './contact-section.component.html',
-  styleUrls: ['./contact-section.component.scss']
+  selector: 'app-experience-section',
+  templateUrl: './experience-section.component.html',
+  styleUrls: ['./experience-section.component.scss']
 })
-export class ContactSectionComponent {
+export class ExperienceSectionComponent {
   public experienceList: experience[] = [
     {
       iconUrl: '/assets/images/experienced-professionals.webp',
@@ -39,6 +39,13 @@ export class ContactSectionComponent {
     btnText: 'Contact Us'
   }
 
+  public contactImgUrl: imgUrl = {
+    contactWoman: '/assets/images/contact-woman.webp',
+    contactWomanAlttext: 'contact-woman',
+    chatBubble: '/assets/images/chat-bubble.webp',
+    chatBubbleAlttext: 'chat-bubble'
+  }
+
 }
 
 interface experience {
@@ -52,4 +59,11 @@ interface experienceSection {
   title: string,
   bodyText: string,
   btnText: string
+}
+
+interface imgUrl {
+  contactWoman: string,
+  contactWomanAlttext: string,
+  chatBubble: string,
+  chatBubbleAlttext: string
 }
